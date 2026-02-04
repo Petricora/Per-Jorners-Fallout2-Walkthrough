@@ -1,0 +1,171 @@
+html {
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-feature-settings: "zero" 1, "liga" 1;
+  font-size: 20px;
+  text-align: justify;
+  background-image: url("library.gif");
+  background-repeat: repeat;
+}
+
+.opening-quote {
+  margin-left: 50%;
+  padding-bottom: 5%;
+  text-align: right;
+  font-style: italic;
+}
+
+.green_star,
+.yellow_star,
+.red_star,
+.blue_star {
+  position: relative;
+  padding-left: 25px;
+  min-height: 20px;
+}
+
+.green_star::before,
+.yellow_star::before,
+.red_star::before,
+.blue_star::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.green_star::before {
+  background-image: url("star3.gif");
+}
+
+.yellow_star::before {
+  background-image: url("star4.gif");
+}
+
+.red_star::before {
+  background-image: url("star.gif");
+}
+
+.blue_star::before {
+  background-image: url("star2.gif");
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+a {
+  color: #0080ff;
+}
+
+a:visited {
+  color: #b774cc;
+}
+
+a:hover {
+  color: #0015ff;
+}
+
+a:active {
+  color: #0015ff;
+}
+
+table,
+th,
+td {
+  border: 1px solid #000000;
+  padding-left: 2px;
+  padding-right: 5px;
+  border-collapse: collapse;
+  font-family: inherit;
+  font-size: inherit;
+  table-layout: auto;
+  white-space: nowrap;
+  font-variant-numeric: slashed-zero;
+}
+
+td:nth-child(3),
+td:nth-child(4),
+td:nth-child(5),
+td:nth-child(6),
+td:nth-child(7),
+td:nth-child(8),
+td:nth-child(9),
+td:nth-child(10) {
+  text-align: right;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+.btn {
+  background-color: #efefef;
+  color: #000000;
+  font-size: 21px;
+  border: 1px solid #2e6da4;
+  border-radius: 4px;
+  line-height: 1.3333333;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background-color: #777777;
+}
+
+.to-top-container {
+  position: relative;
+}
+
+.btn-to-top {
+  position: fixed;
+  right: 100px;
+  bottom: 5px;
+  z-index: 0;
+  padding: 0.25em;
+}
+
+.index {
+  line-height: 1.6em;
+}
+
+.dark {
+  background: #1e201c;
+  color: #ffffff;
+}
