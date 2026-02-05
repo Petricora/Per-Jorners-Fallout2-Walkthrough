@@ -12,7 +12,9 @@ html {
 
 body {
   font-family: "Fira Sans", sans-serif;
-  font-feature-settings: "zero" 1, "liga" 1;
+  font-feature-settings:
+    "zero" 1,
+    "liga" 1;
   font-size: 20px;
   text-align: justify;
   background-image: url("library.gif");
