@@ -1,6 +1,6 @@
 # Per Jorner's (modernized) Fallout 2 Walkthrough
 
-<p>A stylistically modernized copy of the excellent Fallout 2 walkthrough written by Per Jorner. No changes were made to the text itself.
+<p>A modernized copy of the excellent Fallout 2 walkthrough written by Per Jorner. No changes were made to the text itself.
 <p>This version also contains a backup of the original work should its source ever be lost.
 
 ---
