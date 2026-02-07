@@ -107,6 +107,7 @@ td {
 
 table {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 tbody th {
@@ -127,6 +128,7 @@ thead {
   text-align: left;
 }
 
+table:has(col:nth-child(1).tabular) td:nth-child(1),
 table:has(col:nth-child(2).tabular) td:nth-child(2),
 table:has(col:nth-child(3).tabular) td:nth-child(3),
 table:has(col:nth-child(4).tabular) td:nth-child(4),
@@ -140,8 +142,25 @@ table:has(col:nth-child(10).tabular) td:nth-child(10) {
   padding-left: 10px;
 }
 
+caption {
+  text-align: left;
+  font-weight: 450;
+  margin-bottom: 10px;
+}
+
 li {
   margin-bottom: 5px;
+}
+
+li ul {
+  list-style: disc;
+}
+
+kbd {
+  white-space: nowrap;
+  background-color: #eee;
+  border-radius: 3px;
+  border: 1px solid #b4b4b4;
 }
 
 .container {
